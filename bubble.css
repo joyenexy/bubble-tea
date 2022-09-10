@@ -1,0 +1,107 @@
+body{
+    background-color:rgb(241, 241, 241);
+}
+header{
+    text-align:center;
+    color:rgb(127, 190, 32);
+    font-size: 50px;
+    font-style: normal;
+    font-family:"Silkscreen", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+hr.solid{
+    border-top:3px solid rgb(255, 255, 255);
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    display: inline-block;
+}
+#milktea{
+    background-color:rgb(121, 191, 219);
+}
+#honeytea{
+    background-color:rgb(242, 221, 157);
+}
+#freshtea{
+    background-color:rgb(39, 238, 79);
+}
+#slushy{
+    background-color:rgb(185, 132, 224);
+}
+.type{
+    display:inline;
+    padding-left: 10px;
+    font-size: 15px;
+    font-style: normal;
+    font-family:"Silkscreen", sans-serif;
+}
+.category{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.drink img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.flavors{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-family:"Silkscreen", sans-serif;
+}
+.drink{
+    padding: 20px 65px;
+}
+.bold{
+    font-weight: bold;
+}
+.purple{
+    color: rgb(185, 132, 224);
+}
+.orange{
+    color: rgb(242, 221, 157);
+}
+.green{
+    color: rgb(39, 238, 79);
+}
+.blue{
+    color: rgb(121, 191, 219);
+}
+.drink p{
+   margin-top: 5px;
+   margin-bottom: 0px;
+}
+.toppings{
+    font-size: small;
+    font-style: italic;
+}
+.border{
+    margin-top: 30px;
+}
+.legend{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-family:"Silkscreen", sans-serif;
+    row-gap: 10px;
+    column-gap: 350px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.copyright{
+    color:rgb(126, 222, 138);
+    font-size: 15px;
+    font-style: normal;
+    font-family:"Silkscreen", sans-serif;
+}
